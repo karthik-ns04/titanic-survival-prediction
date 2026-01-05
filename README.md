@@ -35,7 +35,9 @@ This project implements a machine learning pipeline to predict whether a passeng
 - **Web App**: Streamlit
 - **Version Control**: Git, GitHub
 
+
 ## 📁 Project Structure
+```
 titanic-survival-prediction/
 ├── app.py # Main Streamlit application
 ├── requirements.txt # Python dependencies
@@ -54,39 +56,34 @@ titanic-survival-prediction/
 │ └── helpers.py # Utility functions
 ├── reports/
 │ └── figures/ # Generated visualizations
-├── models/ # Saved ML models
-└── notebooks/ # Jupyter notebooks (optional)
-
-text
-
+└── models/ # Saved ML models
+```
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/titanic-survival-prediction.git
-cd titanic-survival-prediction
-2. Install dependencies
-bash
-pip install -r requirements.txt
-3. Run EDA (Exploratory Data Analysis)
-bash
-python run_eda.py
-4. Train the model
-bash
-python src/models/train_model.py
-5. Launch the web app
-bash
-streamlit run app.py
-📈 Model Performance
-Model	Accuracy	Precision	Recall	F1-Score	ROC-AUC
-SVM	0.8268	0.7794	0.7681	0.7737	0.8578
-Logistic Regression	0.8101	0.7692	0.7246	0.7463	0.8622
-Random Forest	0.8045	0.7656	0.7101	0.7368	0.8390
-Gradient Boosting	0.7765	0.7302	0.6667	0.6970	0.8306
-🎥 Video Demonstration
-[Link to video demonstration on YouTube/Vimeo]
 
-🔧 Customization
+git clone https://github.com/karthik-ns04/titanic-survival-prediction.git
+cd titanic-survival-prediction
+### 2. Install dependencies
+pip install -r requirements.txt
+### 3. Run EDA (Exploratory Data Analysis)
+python run_eda.py
+### 4. Train the model
+python src/models/train_model.py
+### 5. Launch the web app
+streamlit run app.py
+
+
+## 📈 Model Performance
+```
+Model	                    Accuracy	          Precision       	Recall	      F1-Score	        ROC-AUC
+SVM           	           0.8268	             0.7794	           0.7681	       0.7737	           0.8578
+Logistic Regression	       0.8101	             0.7692	           0.7246	       0.7463	           0.8622
+Random Forest	           0.8045	             0.7656	           0.7101	       0.7368	           0.8390
+Gradient Boosting          0.7765	             0.7302	           0.6667	       0.6970	           0.8306
+```
+
+## 🔧 Customization
 Filtering Options in the App:
 Filter by passenger class (1st, 2nd, 3rd)
 
@@ -107,10 +104,10 @@ Retrain model: python src/models/train_model.py
 
 The Streamlit app will automatically use the updated model
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 Kaggle for the Titanic dataset
 
 Scikit-learn for ML algorithms
