@@ -54,11 +54,15 @@ titanic-survival-prediction/
 │ └── helpers.py # Utility functions
 ├── reports/
 │ └── figures/ # Generated visualizations
-└── models/ # Saved ML models
+├── models/ # Saved ML models
+└── notebooks/ # Jupyter notebooks (optional)
+
+text
 
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/yourusername/titanic-survival-prediction.git
 cd titanic-survival-prediction
 2. Install dependencies
@@ -79,9 +83,8 @@ SVM	0.8268	0.7794	0.7681	0.7737	0.8578
 Logistic Regression	0.8101	0.7692	0.7246	0.7463	0.8622
 Random Forest	0.8045	0.7656	0.7101	0.7368	0.8390
 Gradient Boosting	0.7765	0.7302	0.6667	0.6970	0.8306
-
-
 🎥 Video Demonstration
+[Link to video demonstration on YouTube/Vimeo]
 
 🔧 Customization
 Filtering Options in the App:
